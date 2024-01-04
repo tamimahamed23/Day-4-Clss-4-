@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Header Style Start Here */
+header{
+    padding: 10px;
+    background:rgb(236, 214, 9)
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system,  sans-serif;
+}
+
+nav ul li a:hover{
+    color:blueviolet;
+    transform: 0 5s;
+}
+/* Header Style End Here */
+
+
+
+/* Main Section Start Here*/
+main{
+    background:ghostwhite;
+    padding: 10px;
+}
+/*Main Section End Here*/
+
+
+/*Main Container Start Here */
+.container{
+    padding:80px;
+}
+
+.container h1{
+    color:hsl(24, 100%, 50%);
+    font-size: 50px;
+    padding: 5px;
+   
+}
+.container h3{
+    font-size: 35px;
+    padding: 5px;
+}
+.container h5{
+    font-size: 20px;
+    padding:5px;
+}
+.container P{
+    padding: 5px;
+    font-size: 18px;
+    justify-self: baseline;
+    width: 50%;
+}
+.container button{
+    padding:10px;
+    background: rgba(0, 0, 0, 0.788);
+    color: gold;
+    
+    border: none;
+    margin-top: 10px;
+    width: 100px;
+    font-size: 16px;
+    box-shadow: 2px 2px 20px rebeccapurple;
+    
+}
+.container button:hover{
+    background:rgb(163, 21, 219);
+}
+
+/* Main Container End Here*/
+
+/* Footer Section Start Here */
+
+footer{
+    background:gainsboro;
+}
+
+footer p small{
+   
+    color:red;
+    justify-content: center;
+}
+footer h1{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+
+
+/* Footer Section End Here */
